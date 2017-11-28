@@ -63,7 +63,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #   change the above TO DO to DONE.
 #
 ########################################################################
-
+# I commented out a lot of lines throughout the process of this activity to compare it to the original code. This helped me find some of the answers I was looking for.
 import rosegraphics as rg
 
 
