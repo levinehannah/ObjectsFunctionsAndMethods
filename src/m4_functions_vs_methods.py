@@ -261,7 +261,7 @@ def try_methods_and_functions():
     draw_many_squares(shmu, 2, 100 ,30)
 
     shmu.speed = 5
-    shmu.pen = rg.Pen('red',5)
+    shmu.pen = rg.Pen('red', 5)
     draw_many_squares(shmu, 10, 50, 15)
 
     shmu.speed = 100
