@@ -107,30 +107,30 @@ def turtle3():
 def turtle4():
 
 
-    phillip = rg.SimpleTurtle()
-    phillip.pen = rg.Pen('orange', 30)
+    jose = rg.SimpleTurtle()
+    jose.pen = rg.Pen('pink', 30)
 
-    phillip.backward(69)
-    phillip.right(42)
+    jose.backward(69)
+    jose.right(42)
 
-    phillip.begin_fill()
-    phillip.draw_circle(12)
-    phillip.end_fill()
+    jose.begin_fill()
+    jose.draw_circle(12)
+    jose.end_fill()
 
 def turtle5():
 
-    hannah = rg.SimpleTurtle()
-    hannah.pen = rg.Pen('red',12)
+    jose = rg.SimpleTurtle()
+    jose.pen = rg.Pen('green',13)
 
-    hannah.draw_regular_polygon(5,18)
+    jose.draw_regular_polygon(8, 7)
 
-    pup = rg.SimpleTurtle()
-    pup.pen = rg.Pen('black', 4)
-    pup.speed = 2000
+    tim = rg.SimpleTurtle()
+    tim.pen = rg.Pen('orange', 5)
+    tim.speed = 2000
 
     size=50
     for k in range(size):
-        pup.draw_regular_polygon(8, k)
+        tim.draw_regular_polygon(4, k)
 
 ########################################################################
 #
