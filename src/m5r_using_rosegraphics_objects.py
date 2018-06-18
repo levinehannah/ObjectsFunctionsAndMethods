@@ -17,13 +17,13 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #     a. For the RoseGraphics coordinate system:
 #
 #        -- Where is the (0, 0) point on the screen?
-#              It is in the top, left corner.
+#              It is on the top, left corner.
 #
 #        -- In what direction on the screen does the positive X-axis point?
 #              It points to the right.
 #
 #        -- In what direction on the screen does the positive Y-axis point?
-#              It points downward.
+#              It points downwards.
 #
 #     b. Write a line of code that constructs a basic RoseWindow object:
 #            window = rg.RoseWindow()
@@ -53,7 +53,8 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #            It draws/puts all the shapes to the respective window and then pauses.
 #
 #     g. When is a RoseWindow close_on_mouse_click method call necessary?  Why?
-#            When you have multiple windows opening up on your code, or when you want to see the final result (in our case image) at the end of the run through.
+#            When you have multiple windows opening up with your code, or when you want to see the final result
+#            (or image) at the end of the run through.
 #
 #   ASK QUESTIONS ** NOW ** if you do not understand how the
 #     RoseGraphics graphics system works.
