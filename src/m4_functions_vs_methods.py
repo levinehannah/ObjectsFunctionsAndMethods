@@ -164,12 +164,12 @@ def turtle3():
 
 
 def try_methods():
-    ko = rg.SimpleTurtle()
-    ko.pen = rg.Pen('brown', 5)
-    ko.forward(150)
-    ko.left(90)
-    ko.forward(50)
-    ko.backward(100)
+    lol = rg.SimpleTurtle()
+    lol.pen = rg.Pen('brown', 5)
+    lol.forward(150)
+    lol.left(90)
+    lol.forward(50)
+    lol.backward(100)
 
     """
     Constructs a SimpleTurtle and sets its   pen   to a new rg.Pen
@@ -254,23 +254,23 @@ def try_methods_and_functions():
     # function defined above.  If you don't see why, ** ASK FOR HELP. **
     #
     ####################################################################
-    shmu = rg.SimpleTurtle('square')
-    shmu.pen = rg.Pen('blue',5)
-    shmu.backward(150)
-    shmu.speed = 1
-    draw_many_squares(shmu, 2, 100 ,30)
+    eddemu = rg.SimpleTurtle('square')
+    eddemu.pen = rg.Pen('blue',5)
+    eddemu.backward(150)
+    eddemu.speed = 1
+    draw_many_squares(eddemu, 2, 100 ,30)
 
-    shmu.speed = 5
-    shmu.pen = rg.Pen('red', 5)
-    draw_many_squares(shmu, 10, 50, 15)
+    eddemu.speed = 5
+    eddemu.pen = rg.Pen('red', 5)
+    draw_many_squares(eddemu, 10, 50, 15)
 
-    shmu.speed = 100
-    shmu.pen.thickness = 35
-    draw_many_squares(shmu, 8, 300, 60)
-    shmu.pen = rg.Pen('black', 3)
-    shmu.backward(200)
-    shmu.draw_circle(30)
-    shmu.draw_square(50)
+    eddemu.speed = 100
+    eddemu.pen.thickness = 35
+    draw_many_squares(eddemu, 8, 300, 60)
+    eddemu.pen = rg.Pen('black', 3)
+    eddemu.backward(200)
+    eddemu.draw_circle(30)
+    eddemu.draw_square(50)
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
