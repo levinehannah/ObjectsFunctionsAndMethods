@@ -35,14 +35,14 @@ def two_circles():
 
 
     center_point = rg.Point(300, 100)
-    radius = 50
+    radius = 53
     circle = rg.Circle(center_point, radius)
-    circle.fill_color = 'red'
+    circle.fill_color = 'orange'
     circle.attach_to(window)
 
-    center_point = rg.Point(200, 200)
-    radius = 20
-    circle = rg.Circle(center_point,radius)
+    center_point = rg.Point(100, 50)
+    radius = 23
+    circle = rg.Circle(center_point, radius)
     circle.attach_to(window)
 
 
